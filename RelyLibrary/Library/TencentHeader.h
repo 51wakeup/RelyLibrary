@@ -9,6 +9,12 @@
 #ifndef TencentHeader_h
 #define TencentHeader_h
 
+#import "WXApi.h"
+#import "WeiboSDK.h"
+#import "WXApiObject.h"
+#import "WechatAuthSDK.h"
+#import "WBHttpRequest.h"
+
 #import <TencentOpenAPI/TencentMessageObject.h>
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/TencentOAuthObject.h>

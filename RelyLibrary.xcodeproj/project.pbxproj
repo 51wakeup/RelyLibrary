@@ -25,6 +25,12 @@
 		3A70F8AA20B503A6006A0102 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8A920B503A6006A0102 /* libc++.tbd */; };
 		3A70F8AE20B503C8006A0102 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8AD20B503C8006A0102 /* libz.1.1.3.tbd */; };
 		3A70F8B020B503F2006A0102 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8AF20B503F2006A0102 /* Photos.framework */; };
+		3A70F8C220B53B91006A0102 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A70F8C120B53B90006A0102 /* WeiboSDK.bundle */; };
+		3A70F8C320B53BFB006A0102 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8A320B50376006A0102 /* Security.framework */; };
+		3A70F8C420B53C02006A0102 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8A120B50368006A0102 /* CoreGraphics.framework */; };
+		3A70F8C520B53C12006A0102 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F89D20B5031F006A0102 /* CFNetwork.framework */; };
+		3A70F8C620B53C1C006A0102 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8A720B50393006A0102 /* libiconv.tbd */; };
+		3A70F8C720B53C2F006A0102 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A70F8AB20B503B4006A0102 /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,12 @@
 		3A70F8AB20B503B4006A0102 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		3A70F8AD20B503C8006A0102 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		3A70F8AF20B503F2006A0102 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		3A70F8BC20B53B81006A0102 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3A70F8BD20B53B81006A0102 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3A70F8BE20B53B82006A0102 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		3A70F8BF20B53B82006A0102 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		3A70F8C020B53B82006A0102 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		3A70F8C120B53B90006A0102 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
 		C64D7B940E0DC1F5CC80E028 /* Pods-RelyLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelyLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelyLibrary/Pods-RelyLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		DBE0DC1E992EE6BD41CF163C /* Pods-RelyLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelyLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelyLibrary/Pods-RelyLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,11 +98,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A70F8C720B53C2F006A0102 /* libstdc++.tbd in Frameworks */,
+				3A70F8C620B53C1C006A0102 /* libiconv.tbd in Frameworks */,
+				3A70F8C520B53C12006A0102 /* CFNetwork.framework in Frameworks */,
+				3A70F8C420B53C02006A0102 /* CoreGraphics.framework in Frameworks */,
+				3A70F8C320B53BFB006A0102 /* Security.framework in Frameworks */,
+				3A70F8A020B50349006A0102 /* SystemConfiguration.framework in Frameworks */,
 				3A70F8B020B503F2006A0102 /* Photos.framework in Frameworks */,
 				3A70F8AE20B503C8006A0102 /* libz.1.1.3.tbd in Frameworks */,
 				3A70F8AA20B503A6006A0102 /* libc++.tbd in Frameworks */,
 				3A70F8A620B50384006A0102 /* CoreTelephony.framework in Frameworks */,
-				3A70F8A020B50349006A0102 /* SystemConfiguration.framework in Frameworks */,
 				3A70F89C20B502F3006A0102 /* libsqlite3.tbd in Frameworks */,
 				3A70F89720B4FDFF006A0102 /* libWeChatSDK.a in Frameworks */,
 				3A70F89920B4FDFF006A0102 /* TencentOpenAPI.framework in Frameworks */,
@@ -176,6 +193,12 @@
 		3A70F89320B4FD5D006A0102 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				3A70F8C120B53B90006A0102 /* WeiboSDK.bundle */,
+				3A70F8C020B53B82006A0102 /* WBHttpRequest.h */,
+				3A70F8BE20B53B82006A0102 /* WechatAuthSDK.h */,
+				3A70F8BF20B53B82006A0102 /* WeiboSDK.h */,
+				3A70F8BD20B53B81006A0102 /* WXApi.h */,
+				3A70F8BC20B53B81006A0102 /* WXApiObject.h */,
 				3A70F89420B4FDFF006A0102 /* libWeChatSDK.a */,
 				3A70F89520B4FDFF006A0102 /* libWeiboSDK.a */,
 				3A70F89620B4FDFF006A0102 /* TencentOpenAPI.framework */,
@@ -321,6 +344,7 @@
 				3A70F86E20B4FD42006A0102 /* LaunchScreen.storyboard in Resources */,
 				3A70F86B20B4FD42006A0102 /* Assets.xcassets in Resources */,
 				3A70F86920B4FD40006A0102 /* Main.storyboard in Resources */,
+				3A70F8C220B53B91006A0102 /* WeiboSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
